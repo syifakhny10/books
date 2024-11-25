@@ -68,8 +68,13 @@ Future getNumber() {
 }
 
 Future calculate() async {
+  try{
   await Future.delayed(const Duration(seconds : 5));
   completer.complete(42);
+}
+catch (_) {
+  completer.complete({});
+}
 }
 
   @override
@@ -106,7 +111,9 @@ Future calculate() async {
                   setState(() {
                     result = value.toString();
                   });
-                });
+                }).catchError((e) {
+                  result = 'An error occurred';
+                  });
               },
             ),
             const Spacer(),

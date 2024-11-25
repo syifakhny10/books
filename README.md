@@ -18,13 +18,21 @@ Hasil:
 #  Praktikum 2: Menggunakan await/async untuk menghindari callbacks
 (W11: Soal 4)
 ![alt text](image-2.png)
-Langkah 1 :
+- Langkah 1 :
 Kode tersebut mensimulasikan operasi yang membutuhkan waktu tertentu dengan penundaan menggunakan Future.delayed. Hal ini berguna dalam mengelola proses asinkron dalam aplikasi.
 
-Langkah 2 : 
+- Langkah 2 : 
 Kode tersebut adalah fungsi asinkron dalam bahasa Dart yang menghitung total nilai yang diperoleh dari tiga fungsi returnOneAsync, returnTwoAsync, dan returnThreeAsync. Fungsi ini juga memperbarui tampilan (UI) dengan memanfaatkan setState untuk mengubah nilai variabel result.
 
 # Praktikum 3: Menggunakan Completer di Future 
 (W11: Soal 5)
 ![alt text](image-3.png)
 Kode pada langkah 2 bertujuan untuk membuat Future secara manual menggunakan Completer. Menunda hasil dengan menunggu selama 5 detik. Dan menyelesaikan Future dengan nilai 42 menggunakan completer.complete.
+
+(W11: Soal 6)
+![alt text](image-4.png)
+- Langkah 5 :
+Kode tersebut adalah fungsi asinkron bernama calculate, yang menggunakan blok try-catch untuk menangani kemungkinan kesalahan saat menjalankan operasi asinkron.
+
+- Langkah 6 :
+Kode tersebut adalah contoh penggunaan Future, yang memanfaatkan metode then dan catchError untuk menangani hasil sukses atau error dari operasi asinkron.
