@@ -39,5 +39,18 @@ Kode tersebut adalah contoh penggunaan Future, yang memanfaatkan metode then dan
 
 # Praktikum 4: Memanggil Future secara paralel
 (W11: Soal 7)
-![alt text](image-5.png)
+![alt text](image-6.png)
 Menambahkan method ke dalam class _FuturePageState lalu hapus atau comment kode sebelumnya, kemudian panggil method dari langkah 1 tersebut. Hasilnya akan terlihat seperti gambar di atas.
+Perbedaan Langkah 1 dan Langkah 4:
+- FutureGroup: Memberikan kontrol lebih untuk menambahkan dan mengelola Future secara dinamis.
+Cocok untuk skenario yang lebih kompleks.
+- Future.wait:Lebih sederhana, langsung menerima daftar Future.
+Digunakan untuk kasus sederhana ketika semua Future sudah diketahui sejak awal.
+
+# Praktikum 5: Menangani Respon Error pada Async Code
+(W11: Soal 9)
+![alt text](image-5.png)
+Menambahkan method ke dalam class _FuturePageState, lakukan run dan klik tombol GO! maka akan menghasilkan seperti gambar berikut.
+Perbedaan Langkah 1 dan Langkah 4:
+- Langkah 1: Menggunakan try-catch-finally untuk menangani error dan memastikan blok finally tetap dijalankan.
+- Langkah 4: Lebih berfokus pada UI, menggunakan setState() untuk memperbarui tampilan.
