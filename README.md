@@ -36,3 +36,8 @@ Kode tersebut adalah fungsi asinkron bernama calculate, yang menggunakan blok tr
 
 - Langkah 6 :
 Kode tersebut adalah contoh penggunaan Future, yang memanfaatkan metode then dan catchError untuk menangani hasil sukses atau error dari operasi asinkron.
+
+# Praktikum 4: Memanggil Future secara paralel
+(W11: Soal 7)
+![alt text](image-5.png)
+Menambahkan method ke dalam class _FuturePageState lalu hapus atau comment kode sebelumnya, kemudian panggil method dari langkah 1 tersebut. Hasilnya akan terlihat seperti gambar di atas.
