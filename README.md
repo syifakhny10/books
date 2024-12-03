@@ -80,3 +80,8 @@ Tambahkan nama panggilan pada tiap properti title sebagai identitas pekerjaan, d
 (W11: Soal 16)
 ![alt text](image-10.png)
 Ketika di klik maka akan ganti warna sesuai dengan warna yang kita pilih. dikarenakan pada navigation first merupakan awal saat masuk ke dalam halaman, ketika di klik change color maka akan berpindah ke nvigation second. navigation tersebut terdaapat pada navigation first. lalu pada navigation second disediakan 3 warna, yang sudah dideklarasikan pada class _navigationSecondState yaitu Color color; itu akan mengubah backround warna ketika di klik warna yang diingikan.
+
+# Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
+(W11: Soal 17)
+![alt text](image-11.png)
+Ketika menjalankan kode dan mencoba mengklik tombol Red, Green, atau Blue, aplikasi akan mengalami infinite loop hingga akhirnya aplikasi mungkin berhenti atau membeku. Hal ini disebabkan oleh panggilan rekursif tanpa batas dari fungsi _showColorDialog.
