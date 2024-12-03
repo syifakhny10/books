@@ -41,6 +41,7 @@ Kode tersebut adalah contoh penggunaan Future, yang memanfaatkan metode then dan
 (W11: Soal 7)
 ![alt text](image-6.png)
 Menambahkan method ke dalam class _FuturePageState lalu hapus atau comment kode sebelumnya, kemudian panggil method dari langkah 1 tersebut. Hasilnya akan terlihat seperti gambar di atas.
+(Soal 8)
 Perbedaan Langkah 1 dan Langkah 4:
 - FutureGroup: Memberikan kontrol lebih untuk menambahkan dan mengelola Future secara dinamis.
 Cocok untuk skenario yang lebih kompleks.
@@ -51,6 +52,14 @@ Digunakan untuk kasus sederhana ketika semua Future sudah diketahui sejak awal.
 (W11: Soal 9)
 ![alt text](image-5.png)
 Menambahkan method ke dalam class _FuturePageState, lakukan run dan klik tombol GO! maka akan menghasilkan seperti gambar berikut.
+(Soal 10)
 Perbedaan Langkah 1 dan Langkah 4:
 - Langkah 1: Menggunakan try-catch-finally untuk menangani error dan memastikan blok finally tetap dijalankan.
 - Langkah 4: Lebih berfokus pada UI, menggunakan setState() untuk memperbarui tampilan.
+
+# Praktikum 6: Menggunakan Future dengan StatefulWidget
+(Soal 11)
+Menambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+(W11: Soal 12)
+![alt text](image-7.png)
+Memanggil screen baru tersebut di file main Anda seperti berikut. Selanjutnya, Run project di device atau emulator dan Tambahkan animasi loading. Maka, hasilnya akan terlihat seperti digambar
