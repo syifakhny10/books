@@ -29,8 +29,7 @@ class _LocationScreenState extends State<LocationScreen> {
       });
     });
   }
-
-  @override
+@override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -56,6 +55,7 @@ class _LocationScreenState extends State<LocationScreen> {
       ),
     );
   }
+
 
   Future<Position> getPosition() async {
     await Geolocator.isLocationServiceEnabled();

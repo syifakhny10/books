@@ -63,3 +63,5 @@ Menambahkan nama panggilan Anda pada tiap properti title sebagai identitas peker
 (W11: Soal 12)
 ![alt text](image-7.png)
 Memanggil screen baru tersebut di file main Anda seperti berikut. Selanjutnya, Run project di device atau emulator dan Tambahkan animasi loading. Maka, hasilnya akan terlihat seperti digambar
+
+# Praktikum 7: Manajemen Future dengan FutureBuilder
