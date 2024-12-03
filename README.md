@@ -61,7 +61,22 @@ Perbedaan Langkah 1 dan Langkah 4:
 (Soal 11)
 Menambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
 (W11: Soal 12)
-![alt text](image-7.png)
+![alt text](image-8.png)
 Memanggil screen baru tersebut di file main Anda seperti berikut. Selanjutnya, Run project di device atau emulator dan Tambahkan animasi loading. Maka, hasilnya akan terlihat seperti digambar
 
 # Praktikum 7: Manajemen Future dengan FutureBuilder
+![alt text](image-7.png)
+(W11: Soal 13)
+- Langkah 1: Modifikasi method getPosition dengan membuka file geolocation
+- Langkah 2: Menambahkan variabel di class _LocationScreenState
+- Langkah 3: Menambahkan method di build ()
+(W11: Soal 14)
+Menambahkan heandling error dan hasilnya akan terlihat seperti digambar
+
+# Praktikum 8: Navigation route dengan Future Function
+(Soal 15)
+![alt text](image-9.png)
+Tambahkan nama panggilan pada tiap properti title sebagai identitas pekerjaan, dan ganti dengan warna tema favorit Anda.
+(W11: Soal 16)
+![alt text](image-10.png)
+Ketika di klik maka akan ganti warna sesuai dengan warna yang kita pilih. dikarenakan pada navigation first merupakan awal saat masuk ke dalam halaman, ketika di klik change color maka akan berpindah ke nvigation second. navigation tersebut terdaapat pada navigation first. lalu pada navigation second disediakan 3 warna, yang sudah dideklarasikan pada class _navigationSecondState yaitu Color color; itu akan mengubah backround warna ketika di klik warna yang diingikan.
